@@ -1,0 +1,160 @@
+\hypertarget{class_simulacao}{}\doxysection{Simulacao\texorpdfstring{$<$}{<} S, T \texorpdfstring{$>$}{>} Class Template Reference}
+\label{class_simulacao}\index{Simulacao$<$ S, T $>$@{Simulacao$<$ S, T $>$}}
+
+
+{\ttfamily \#include $<$Simulation.\+h$>$}
+
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_simulacao_a65d96cad2745608d0ab5c5ba2d95b763}{Simulacao}} ()
+\begin{DoxyCompactList}\small\item\em Vector of flows included in the simulation. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{class_simulacao_a641034da2060a5a7c0e63d51bfb916c2}{$\sim$\+Simulacao}} ()
+\item 
+void \mbox{\hyperlink{class_simulacao_af26a35decdccda65282229a406964268}{sim\+Description}} ()
+\item 
+void \mbox{\hyperlink{class_simulacao_a3589aa6c1479abc20fe98e89a3cc1e7d}{add\+Sistema}} (S $\ast$)
+\item 
+S $\ast$ \mbox{\hyperlink{class_simulacao_a134e4ff275806d1f705259d0710bae50}{remove\+Sistema}} (int)
+\item 
+void \mbox{\hyperlink{class_simulacao_af79241b51932f6d41ee5e2b625199420}{add\+Fluxo}} (T $\ast$)
+\item 
+T $\ast$ \mbox{\hyperlink{class_simulacao_a68024eba20cf26a444947f43cea9892d}{remove\+Fluxo}} (int)
+\item 
+void \mbox{\hyperlink{class_simulacao_a2b6f9451d573a95ccc59d564b63ead7c}{run\+Sim}} (int)
+\item 
+\mbox{\hyperlink{class_simulacao_a536bb5671b8016d0a4c1b390d7551a33}{Simulacao}} ()
+\item 
+\mbox{\hyperlink{class_simulacao_af5192e0b1fc5b0da3d45b8652370e830}{$\sim$\+Simulacao}} ()
+\item 
+void \mbox{\hyperlink{class_simulacao_a339df75470ebe0e5d3dd0a714fd3f7f2}{sim\+Description}} ()
+\item 
+void \mbox{\hyperlink{class_simulacao_a9d04e8478f9f5bb0371b9fafd17c1a5a}{add\+Sistema}} (\mbox{\hyperlink{class_sistema}{Sistema}} $\ast$s)
+\item 
+\mbox{\hyperlink{class_sistema}{Sistema}} $\ast$ \mbox{\hyperlink{class_simulacao_abf454ee8458449b49aa4ef5c9086fc72}{remove\+Sistema}} (int i)
+\item 
+void \mbox{\hyperlink{class_simulacao_af81678b43addaccf66721474b7dc76d6}{add\+Fluxo}} (\mbox{\hyperlink{class_fluxo}{Fluxo}}$<$ \mbox{\hyperlink{class_sistema}{Sistema}} $>$ $\ast$f)
+\item 
+\mbox{\hyperlink{class_fluxo}{Fluxo}}$<$ \mbox{\hyperlink{class_sistema}{Sistema}} $>$ $\ast$ \mbox{\hyperlink{class_simulacao_ab1f301898e09ad47ebf96448b42f3521}{remove\+Fluxo}} (int i)
+\item 
+void \mbox{\hyperlink{class_simulacao_a48b765172da1a94cd59106969c8ac1b6}{run\+Sim}} (int a)
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{class_simulacao_a65d96cad2745608d0ab5c5ba2d95b763}\label{class_simulacao_a65d96cad2745608d0ab5c5ba2d95b763}} 
+\index{Simulacao$<$ S, T $>$@{Simulacao$<$ S, T $>$}!Simulacao@{Simulacao}}
+\index{Simulacao@{Simulacao}!Simulacao$<$ S, T $>$@{Simulacao$<$ S, T $>$}}
+\doxysubsubsection{\texorpdfstring{Simulacao()}{Simulacao()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily template$<$class S , class T $>$ \\
+\mbox{\hyperlink{class_simulacao}{Simulacao}}$<$ S, T $>$\+::\mbox{\hyperlink{class_simulacao}{Simulacao}} (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Vector of flows included in the simulation. 
+
+\mbox{\Hypertarget{class_simulacao_a641034da2060a5a7c0e63d51bfb916c2}\label{class_simulacao_a641034da2060a5a7c0e63d51bfb916c2}} 
+\index{Simulacao$<$ S, T $>$@{Simulacao$<$ S, T $>$}!````~Simulacao@{$\sim$Simulacao}}
+\index{````~Simulacao@{$\sim$Simulacao}!Simulacao$<$ S, T $>$@{Simulacao$<$ S, T $>$}}
+\doxysubsubsection{\texorpdfstring{$\sim$Simulacao()}{~Simulacao()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily template$<$class S , class T $>$ \\
+\mbox{\hyperlink{class_simulacao}{Simulacao}}$<$ S, T $>$\+::$\sim$\mbox{\hyperlink{class_simulacao}{Simulacao}} (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{class_simulacao_a536bb5671b8016d0a4c1b390d7551a33}\label{class_simulacao_a536bb5671b8016d0a4c1b390d7551a33}} 
+\index{Simulacao$<$ S, T $>$@{Simulacao$<$ S, T $>$}!Simulacao@{Simulacao}}
+\index{Simulacao@{Simulacao}!Simulacao$<$ S, T $>$@{Simulacao$<$ S, T $>$}}
+\doxysubsubsection{\texorpdfstring{Simulacao()}{Simulacao()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_simulacao}{Simulacao}}$<$ \mbox{\hyperlink{class_sistema}{Sistema}}, \mbox{\hyperlink{class_fluxo}{Fluxo}}$<$ \mbox{\hyperlink{class_sistema}{Sistema}} $>$ $>$\+::\mbox{\hyperlink{class_simulacao}{Simulacao}} (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Constructor.\mbox{\Hypertarget{class_simulacao_af5192e0b1fc5b0da3d45b8652370e830}\label{class_simulacao_af5192e0b1fc5b0da3d45b8652370e830}} 
+\index{Simulacao$<$ S, T $>$@{Simulacao$<$ S, T $>$}!````~Simulacao@{$\sim$Simulacao}}
+\index{````~Simulacao@{$\sim$Simulacao}!Simulacao$<$ S, T $>$@{Simulacao$<$ S, T $>$}}
+\doxysubsubsection{\texorpdfstring{$\sim$Simulacao()}{~Simulacao()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_simulacao}{Simulacao}}$<$ \mbox{\hyperlink{class_sistema}{Sistema}}, \mbox{\hyperlink{class_fluxo}{Fluxo}}$<$ \mbox{\hyperlink{class_sistema}{Sistema}} $>$ $>$\+::$\sim$\mbox{\hyperlink{class_simulacao}{Simulacao}} (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Destructor. TBI.
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{class_simulacao_af81678b43addaccf66721474b7dc76d6}\label{class_simulacao_af81678b43addaccf66721474b7dc76d6}} 
+\index{Simulacao$<$ S, T $>$@{Simulacao$<$ S, T $>$}!addFluxo@{addFluxo}}
+\index{addFluxo@{addFluxo}!Simulacao$<$ S, T $>$@{Simulacao$<$ S, T $>$}}
+\doxysubsubsection{\texorpdfstring{addFluxo()}{addFluxo()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily void \mbox{\hyperlink{class_simulacao}{Simulacao}}$<$ \mbox{\hyperlink{class_sistema}{Sistema}}, \mbox{\hyperlink{class_fluxo}{Fluxo}}$<$ \mbox{\hyperlink{class_sistema}{Sistema}} $>$ $>$\+::add\+Fluxo (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_fluxo}{Fluxo}}$<$ \mbox{\hyperlink{class_sistema}{Sistema}} $>$ $\ast$}]{f }\end{DoxyParamCaption})}
+
+Function to insert a \mbox{\hyperlink{class_fluxo}{Fluxo}} into the simulation.\mbox{\Hypertarget{class_simulacao_af79241b51932f6d41ee5e2b625199420}\label{class_simulacao_af79241b51932f6d41ee5e2b625199420}} 
+\index{Simulacao$<$ S, T $>$@{Simulacao$<$ S, T $>$}!addFluxo@{addFluxo}}
+\index{addFluxo@{addFluxo}!Simulacao$<$ S, T $>$@{Simulacao$<$ S, T $>$}}
+\doxysubsubsection{\texorpdfstring{addFluxo()}{addFluxo()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily template$<$class S , class T $>$ \\
+void \mbox{\hyperlink{class_simulacao}{Simulacao}}$<$ S, T $>$\+::add\+Fluxo (\begin{DoxyParamCaption}\item[{T $\ast$}]{ }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{class_simulacao_a3589aa6c1479abc20fe98e89a3cc1e7d}\label{class_simulacao_a3589aa6c1479abc20fe98e89a3cc1e7d}} 
+\index{Simulacao$<$ S, T $>$@{Simulacao$<$ S, T $>$}!addSistema@{addSistema}}
+\index{addSistema@{addSistema}!Simulacao$<$ S, T $>$@{Simulacao$<$ S, T $>$}}
+\doxysubsubsection{\texorpdfstring{addSistema()}{addSistema()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily template$<$class S , class T $>$ \\
+void \mbox{\hyperlink{class_simulacao}{Simulacao}}$<$ S, T $>$\+::add\+Sistema (\begin{DoxyParamCaption}\item[{S $\ast$}]{ }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{class_simulacao_a9d04e8478f9f5bb0371b9fafd17c1a5a}\label{class_simulacao_a9d04e8478f9f5bb0371b9fafd17c1a5a}} 
+\index{Simulacao$<$ S, T $>$@{Simulacao$<$ S, T $>$}!addSistema@{addSistema}}
+\index{addSistema@{addSistema}!Simulacao$<$ S, T $>$@{Simulacao$<$ S, T $>$}}
+\doxysubsubsection{\texorpdfstring{addSistema()}{addSistema()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily void \mbox{\hyperlink{class_simulacao}{Simulacao}}$<$ \mbox{\hyperlink{class_sistema}{Sistema}}, \mbox{\hyperlink{class_fluxo}{Fluxo}}$<$ \mbox{\hyperlink{class_sistema}{Sistema}} $>$ $>$\+::add\+Sistema (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_sistema}{Sistema}} $\ast$}]{s }\end{DoxyParamCaption})}
+
+Function to insert a \mbox{\hyperlink{class_sistema}{Sistema}} into the simulation.\mbox{\Hypertarget{class_simulacao_ab1f301898e09ad47ebf96448b42f3521}\label{class_simulacao_ab1f301898e09ad47ebf96448b42f3521}} 
+\index{Simulacao$<$ S, T $>$@{Simulacao$<$ S, T $>$}!removeFluxo@{removeFluxo}}
+\index{removeFluxo@{removeFluxo}!Simulacao$<$ S, T $>$@{Simulacao$<$ S, T $>$}}
+\doxysubsubsection{\texorpdfstring{removeFluxo()}{removeFluxo()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_fluxo}{Fluxo}}$<$ \mbox{\hyperlink{class_sistema}{Sistema}} $>$ $\ast$ \mbox{\hyperlink{class_simulacao}{Simulacao}}$<$ \mbox{\hyperlink{class_sistema}{Sistema}}, \mbox{\hyperlink{class_fluxo}{Fluxo}}$<$ \mbox{\hyperlink{class_sistema}{Sistema}} $>$ $>$\+::remove\+Fluxo (\begin{DoxyParamCaption}\item[{int}]{i }\end{DoxyParamCaption})}
+
+Function to remove a \mbox{\hyperlink{class_fluxo}{Fluxo}} from the simulation.\mbox{\Hypertarget{class_simulacao_a68024eba20cf26a444947f43cea9892d}\label{class_simulacao_a68024eba20cf26a444947f43cea9892d}} 
+\index{Simulacao$<$ S, T $>$@{Simulacao$<$ S, T $>$}!removeFluxo@{removeFluxo}}
+\index{removeFluxo@{removeFluxo}!Simulacao$<$ S, T $>$@{Simulacao$<$ S, T $>$}}
+\doxysubsubsection{\texorpdfstring{removeFluxo()}{removeFluxo()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily template$<$class S , class T $>$ \\
+T $\ast$ \mbox{\hyperlink{class_simulacao}{Simulacao}}$<$ S, T $>$\+::remove\+Fluxo (\begin{DoxyParamCaption}\item[{int}]{ }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{class_simulacao_abf454ee8458449b49aa4ef5c9086fc72}\label{class_simulacao_abf454ee8458449b49aa4ef5c9086fc72}} 
+\index{Simulacao$<$ S, T $>$@{Simulacao$<$ S, T $>$}!removeSistema@{removeSistema}}
+\index{removeSistema@{removeSistema}!Simulacao$<$ S, T $>$@{Simulacao$<$ S, T $>$}}
+\doxysubsubsection{\texorpdfstring{removeSistema()}{removeSistema()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_sistema}{Sistema}} $\ast$ \mbox{\hyperlink{class_simulacao}{Simulacao}}$<$ \mbox{\hyperlink{class_sistema}{Sistema}}, \mbox{\hyperlink{class_fluxo}{Fluxo}}$<$ \mbox{\hyperlink{class_sistema}{Sistema}} $>$ $>$\+::remove\+Sistema (\begin{DoxyParamCaption}\item[{int}]{i }\end{DoxyParamCaption})}
+
+Function to remove a \mbox{\hyperlink{class_sistema}{Sistema}} from the simulation.\mbox{\Hypertarget{class_simulacao_a134e4ff275806d1f705259d0710bae50}\label{class_simulacao_a134e4ff275806d1f705259d0710bae50}} 
+\index{Simulacao$<$ S, T $>$@{Simulacao$<$ S, T $>$}!removeSistema@{removeSistema}}
+\index{removeSistema@{removeSistema}!Simulacao$<$ S, T $>$@{Simulacao$<$ S, T $>$}}
+\doxysubsubsection{\texorpdfstring{removeSistema()}{removeSistema()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily template$<$class S , class T $>$ \\
+S $\ast$ \mbox{\hyperlink{class_simulacao}{Simulacao}}$<$ S, T $>$\+::remove\+Sistema (\begin{DoxyParamCaption}\item[{int}]{ }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{class_simulacao_a48b765172da1a94cd59106969c8ac1b6}\label{class_simulacao_a48b765172da1a94cd59106969c8ac1b6}} 
+\index{Simulacao$<$ S, T $>$@{Simulacao$<$ S, T $>$}!runSim@{runSim}}
+\index{runSim@{runSim}!Simulacao$<$ S, T $>$@{Simulacao$<$ S, T $>$}}
+\doxysubsubsection{\texorpdfstring{runSim()}{runSim()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily void \mbox{\hyperlink{class_simulacao}{Simulacao}}$<$ \mbox{\hyperlink{class_sistema}{Sistema}}, \mbox{\hyperlink{class_fluxo}{Fluxo}}$<$ \mbox{\hyperlink{class_sistema}{Sistema}} $>$ $>$\+::run\+Sim (\begin{DoxyParamCaption}\item[{int}]{a }\end{DoxyParamCaption})}
+
+Function to run the simulation of the systems and flows included for a time steps.\mbox{\Hypertarget{class_simulacao_a2b6f9451d573a95ccc59d564b63ead7c}\label{class_simulacao_a2b6f9451d573a95ccc59d564b63ead7c}} 
+\index{Simulacao$<$ S, T $>$@{Simulacao$<$ S, T $>$}!runSim@{runSim}}
+\index{runSim@{runSim}!Simulacao$<$ S, T $>$@{Simulacao$<$ S, T $>$}}
+\doxysubsubsection{\texorpdfstring{runSim()}{runSim()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily template$<$class S , class T $>$ \\
+void \mbox{\hyperlink{class_simulacao}{Simulacao}}$<$ S, T $>$\+::run\+Sim (\begin{DoxyParamCaption}\item[{int}]{ }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{class_simulacao_a339df75470ebe0e5d3dd0a714fd3f7f2}\label{class_simulacao_a339df75470ebe0e5d3dd0a714fd3f7f2}} 
+\index{Simulacao$<$ S, T $>$@{Simulacao$<$ S, T $>$}!simDescription@{simDescription}}
+\index{simDescription@{simDescription}!Simulacao$<$ S, T $>$@{Simulacao$<$ S, T $>$}}
+\doxysubsubsection{\texorpdfstring{simDescription()}{simDescription()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily void \mbox{\hyperlink{class_simulacao}{Simulacao}}$<$ \mbox{\hyperlink{class_sistema}{Sistema}}, \mbox{\hyperlink{class_fluxo}{Fluxo}}$<$ \mbox{\hyperlink{class_sistema}{Sistema}} $>$ $>$\+::sim\+Description (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Function to print all the Systems and Flows included in the simulation. TBI.\mbox{\Hypertarget{class_simulacao_af26a35decdccda65282229a406964268}\label{class_simulacao_af26a35decdccda65282229a406964268}} 
+\index{Simulacao$<$ S, T $>$@{Simulacao$<$ S, T $>$}!simDescription@{simDescription}}
+\index{simDescription@{simDescription}!Simulacao$<$ S, T $>$@{Simulacao$<$ S, T $>$}}
+\doxysubsubsection{\texorpdfstring{simDescription()}{simDescription()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily template$<$class S , class T $>$ \\
+void \mbox{\hyperlink{class_simulacao}{Simulacao}}$<$ S, T $>$\+::sim\+Description (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+src/\mbox{\hyperlink{_simulation_8h}{Simulation.\+h}}\end{DoxyCompactItemize}

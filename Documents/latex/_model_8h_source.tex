@@ -1,0 +1,33 @@
+\hypertarget{_model_8h_source}{}\doxysection{Model.\+h}
+\label{_model_8h_source}\index{src/Model.h@{src/Model.h}}
+\mbox{\hyperlink{_model_8h}{Go to the documentation of this file.}}
+\begin{DoxyCode}{0}
+\DoxyCodeLine{1 \textcolor{preprocessor}{\#ifndef SIMULATION\_H}}
+\DoxyCodeLine{2 \textcolor{preprocessor}{\#define SIMULATION\_H}}
+\DoxyCodeLine{3 }
+\DoxyCodeLine{4 \textcolor{preprocessor}{\#include<vector>}}
+\DoxyCodeLine{5 \textcolor{preprocessor}{\#include<string>}}
+\DoxyCodeLine{6 }
+\DoxyCodeLine{7 \textcolor{keyword}{template} <\textcolor{keyword}{class} S, \textcolor{keyword}{class} T>}
+\DoxyCodeLine{8 \textcolor{keyword}{class }\mbox{\hyperlink{class_model}{Model}}\{}
+\DoxyCodeLine{9     std::vector<S*> sys; }
+\DoxyCodeLine{10     std::vector<T*> flow; }
+\DoxyCodeLine{11 }
+\DoxyCodeLine{12 \textcolor{keyword}{public}:}
+\DoxyCodeLine{13     \mbox{\hyperlink{class_model_a14a64c148d705698c45e7a6ebee3f8b4}{Model}}();}
+\DoxyCodeLine{14     \mbox{\hyperlink{class_model_a8f81926431b46d881471d74fc00adc46}{\string~Model}}();}
+\DoxyCodeLine{15 }
+\DoxyCodeLine{16     \textcolor{keywordtype}{void} \mbox{\hyperlink{class_model_adc7f6b348d7c02eaf5182becf3753c66}{simDescription}}();}
+\DoxyCodeLine{17 }
+\DoxyCodeLine{18     \textcolor{keywordtype}{void} \mbox{\hyperlink{class_model_ac9c1db5e60a9ae3e42beb194dd04a09c}{addSystem}}(S*);}
+\DoxyCodeLine{19     S* \mbox{\hyperlink{class_model_a3aa01d8c8898a6581ce0b057b1480a4a}{removeSystem}}(\textcolor{keywordtype}{int});}
+\DoxyCodeLine{20 }
+\DoxyCodeLine{21     \textcolor{keywordtype}{void} \mbox{\hyperlink{class_model_aba2c5b2e81d8297191e297245e4882a7}{addFlow}}(T*);}
+\DoxyCodeLine{22     T* \mbox{\hyperlink{class_model_a487aeca784b7ce4dda33c1711f487123}{removeFlow}}(\textcolor{keywordtype}{int});}
+\DoxyCodeLine{23 }
+\DoxyCodeLine{24     \textcolor{keywordtype}{void} \mbox{\hyperlink{class_model_ac229cd66a0928e531df8e807a7b5f073}{runModel}}(\textcolor{keywordtype}{int});}
+\DoxyCodeLine{25 \};}
+\DoxyCodeLine{26 }
+\DoxyCodeLine{27 \textcolor{preprocessor}{\#endif}}
+
+\end{DoxyCode}

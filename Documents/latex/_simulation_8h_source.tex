@@ -1,0 +1,33 @@
+\hypertarget{_simulation_8h_source}{}\doxysection{Simulation.\+h}
+\label{_simulation_8h_source}\index{src/Simulation.h@{src/Simulation.h}}
+\mbox{\hyperlink{_simulation_8h}{Go to the documentation of this file.}}
+\begin{DoxyCode}{0}
+\DoxyCodeLine{1 \textcolor{preprocessor}{\#ifndef SIMULATION\_H}}
+\DoxyCodeLine{2 \textcolor{preprocessor}{\#define SIMULATION\_H}}
+\DoxyCodeLine{3 }
+\DoxyCodeLine{4 \textcolor{preprocessor}{\#include<vector>}}
+\DoxyCodeLine{5 \textcolor{preprocessor}{\#include<string>}}
+\DoxyCodeLine{6 }
+\DoxyCodeLine{7 \textcolor{keyword}{template} <\textcolor{keyword}{class} S, \textcolor{keyword}{class} T>}
+\DoxyCodeLine{8 \textcolor{keyword}{class }\mbox{\hyperlink{class_simulacao}{Simulacao}}\{}
+\DoxyCodeLine{9     std::vector<S*> sis; }
+\DoxyCodeLine{10     std::vector<T*> flow; }
+\DoxyCodeLine{11 }
+\DoxyCodeLine{12 \textcolor{keyword}{public}:}
+\DoxyCodeLine{13     \mbox{\hyperlink{class_simulacao_a65d96cad2745608d0ab5c5ba2d95b763}{Simulacao}}();}
+\DoxyCodeLine{14     \mbox{\hyperlink{class_simulacao_a641034da2060a5a7c0e63d51bfb916c2}{\string~Simulacao}}();}
+\DoxyCodeLine{15 }
+\DoxyCodeLine{16     \textcolor{keywordtype}{void} \mbox{\hyperlink{class_simulacao_af26a35decdccda65282229a406964268}{simDescription}}();}
+\DoxyCodeLine{17 }
+\DoxyCodeLine{18     \textcolor{keywordtype}{void} \mbox{\hyperlink{class_simulacao_a3589aa6c1479abc20fe98e89a3cc1e7d}{addSistema}}(S*);}
+\DoxyCodeLine{19     S* \mbox{\hyperlink{class_simulacao_a134e4ff275806d1f705259d0710bae50}{removeSistema}}(\textcolor{keywordtype}{int});}
+\DoxyCodeLine{20 }
+\DoxyCodeLine{21     \textcolor{keywordtype}{void} \mbox{\hyperlink{class_simulacao_af79241b51932f6d41ee5e2b625199420}{addFluxo}}(T*);}
+\DoxyCodeLine{22     T* \mbox{\hyperlink{class_simulacao_a68024eba20cf26a444947f43cea9892d}{removeFluxo}}(\textcolor{keywordtype}{int});}
+\DoxyCodeLine{23 }
+\DoxyCodeLine{24     \textcolor{keywordtype}{void} \mbox{\hyperlink{class_simulacao_a2b6f9451d573a95ccc59d564b63ead7c}{runSim}}(\textcolor{keywordtype}{int});}
+\DoxyCodeLine{25 \};}
+\DoxyCodeLine{26 }
+\DoxyCodeLine{27 \textcolor{preprocessor}{\#endif}}
+
+\end{DoxyCode}

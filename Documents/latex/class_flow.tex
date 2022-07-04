@@ -1,0 +1,126 @@
+\hypertarget{class_flow}{}\doxysection{Flow\texorpdfstring{$<$}{<} T \texorpdfstring{$>$}{>} Class Template Reference}
+\label{class_flow}\index{Flow$<$ T $>$@{Flow$<$ T $>$}}
+
+
+{\ttfamily \#include $<$Flow.\+h$>$}
+
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_flow_a05d4c2b72cd137a4279f7a14b54b175e}{Flow}} (T $\ast$const \&, T $\ast$const \&)
+\begin{DoxyCompactList}\small\item\em Vector with each system dependency. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{class_flow_a36f90ac9d8b6b4651333b5feb3ec49f2}{$\sim$\+Flow}} ()
+\item 
+T $\ast$ \mbox{\hyperlink{class_flow_a497d4521ec62a2ce85b2a4e955c6268e}{get\+Sys\+Origin}} ()
+\item 
+T $\ast$ \mbox{\hyperlink{class_flow_a58c2b50bd11b7eb820b6265d1d5ec22d}{get\+Sys\+Destiny}} ()
+\item 
+float \mbox{\hyperlink{class_flow_a9eb9bc86edc7acedff3871aac0321bd2}{get\+Change}} ()
+\item 
+void \mbox{\hyperlink{class_flow_a5212421f405ed3ca55d1ab3fe89f8fad}{define\+Func}} (T $\ast$const \&, float($\ast$)(float))
+\item 
+\mbox{\hyperlink{class_flow_a34d87de4c633570c696e773d9e20c47e}{Flow}} (\mbox{\hyperlink{class_system}{System}} $\ast$const \&o, \mbox{\hyperlink{class_system}{System}} $\ast$const \&d)
+\item 
+\mbox{\hyperlink{class_flow_a919aee74d80c8a967f37206af112b33b}{$\sim$\+Flow}} ()
+\item 
+\mbox{\hyperlink{class_system}{System}} $\ast$ \mbox{\hyperlink{class_flow_a0f0bf6596d183af7bc067d91ed7ded09}{get\+Sys\+Origin}} ()
+\item 
+\mbox{\hyperlink{class_system}{System}} $\ast$ \mbox{\hyperlink{class_flow_a5ebed47544b3dab8762afc9a738a2744}{get\+Sys\+Destiny}} ()
+\item 
+float \mbox{\hyperlink{class_flow_a9459d295fb9cf865dd6cad1c31787647}{get\+Change}} ()
+\item 
+void \mbox{\hyperlink{class_flow_a998605dff5aec0c5d7741cd36516766b}{define\+Func}} (\mbox{\hyperlink{class_system}{System}} $\ast$const \&sys, float($\ast$func)(float))
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{class_flow_a05d4c2b72cd137a4279f7a14b54b175e}\label{class_flow_a05d4c2b72cd137a4279f7a14b54b175e}} 
+\index{Flow$<$ T $>$@{Flow$<$ T $>$}!Flow@{Flow}}
+\index{Flow@{Flow}!Flow$<$ T $>$@{Flow$<$ T $>$}}
+\doxysubsubsection{\texorpdfstring{Flow()}{Flow()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily template$<$class T $>$ \\
+\mbox{\hyperlink{class_flow}{Flow}}$<$ T $>$\+::\mbox{\hyperlink{class_flow}{Flow}} (\begin{DoxyParamCaption}\item[{T $\ast$const \&}]{,  }\item[{T $\ast$const \&}]{ }\end{DoxyParamCaption})}
+
+
+
+Vector with each system dependency. 
+
+\mbox{\Hypertarget{class_flow_a36f90ac9d8b6b4651333b5feb3ec49f2}\label{class_flow_a36f90ac9d8b6b4651333b5feb3ec49f2}} 
+\index{Flow$<$ T $>$@{Flow$<$ T $>$}!````~Flow@{$\sim$Flow}}
+\index{````~Flow@{$\sim$Flow}!Flow$<$ T $>$@{Flow$<$ T $>$}}
+\doxysubsubsection{\texorpdfstring{$\sim$Flow()}{~Flow()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily template$<$class T $>$ \\
+\mbox{\hyperlink{class_flow}{Flow}}$<$ T $>$\+::$\sim$\mbox{\hyperlink{class_flow}{Flow}} (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{class_flow_a34d87de4c633570c696e773d9e20c47e}\label{class_flow_a34d87de4c633570c696e773d9e20c47e}} 
+\index{Flow$<$ T $>$@{Flow$<$ T $>$}!Flow@{Flow}}
+\index{Flow@{Flow}!Flow$<$ T $>$@{Flow$<$ T $>$}}
+\doxysubsubsection{\texorpdfstring{Flow()}{Flow()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_flow}{Flow}}$<$ \mbox{\hyperlink{class_system}{System}} $>$\+::\mbox{\hyperlink{class_flow}{Flow}} (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_system}{System}} $\ast$const \&}]{o,  }\item[{\mbox{\hyperlink{class_system}{System}} $\ast$const \&}]{d }\end{DoxyParamCaption})}
+
+Constructor. Receives to systems to connect.\mbox{\Hypertarget{class_flow_a919aee74d80c8a967f37206af112b33b}\label{class_flow_a919aee74d80c8a967f37206af112b33b}} 
+\index{Flow$<$ T $>$@{Flow$<$ T $>$}!````~Flow@{$\sim$Flow}}
+\index{````~Flow@{$\sim$Flow}!Flow$<$ T $>$@{Flow$<$ T $>$}}
+\doxysubsubsection{\texorpdfstring{$\sim$Flow()}{~Flow()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_flow}{Flow}}$<$ \mbox{\hyperlink{class_system}{System}} $>$\+::$\sim$\mbox{\hyperlink{class_flow}{Flow}} (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Destructor. TBI.
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{class_flow_a998605dff5aec0c5d7741cd36516766b}\label{class_flow_a998605dff5aec0c5d7741cd36516766b}} 
+\index{Flow$<$ T $>$@{Flow$<$ T $>$}!defineFunc@{defineFunc}}
+\index{defineFunc@{defineFunc}!Flow$<$ T $>$@{Flow$<$ T $>$}}
+\doxysubsubsection{\texorpdfstring{defineFunc()}{defineFunc()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily void \mbox{\hyperlink{class_flow}{Flow}}$<$ \mbox{\hyperlink{class_system}{System}} $>$\+::define\+Func (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_system}{System}} $\ast$const \&}]{sys,  }\item[{float($\ast$)(float)}]{func }\end{DoxyParamCaption})}
+
+Function to define a new system dependency for the flow, with a function pointer set for the calculation.\mbox{\Hypertarget{class_flow_a5212421f405ed3ca55d1ab3fe89f8fad}\label{class_flow_a5212421f405ed3ca55d1ab3fe89f8fad}} 
+\index{Flow$<$ T $>$@{Flow$<$ T $>$}!defineFunc@{defineFunc}}
+\index{defineFunc@{defineFunc}!Flow$<$ T $>$@{Flow$<$ T $>$}}
+\doxysubsubsection{\texorpdfstring{defineFunc()}{defineFunc()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily template$<$class T $>$ \\
+void \mbox{\hyperlink{class_flow}{Flow}}$<$ T $>$\+::define\+Func (\begin{DoxyParamCaption}\item[{T $\ast$const \&}]{,  }\item[{float($\ast$)(float)}]{ }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{class_flow_a9459d295fb9cf865dd6cad1c31787647}\label{class_flow_a9459d295fb9cf865dd6cad1c31787647}} 
+\index{Flow$<$ T $>$@{Flow$<$ T $>$}!getChange@{getChange}}
+\index{getChange@{getChange}!Flow$<$ T $>$@{Flow$<$ T $>$}}
+\doxysubsubsection{\texorpdfstring{getChange()}{getChange()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily float \mbox{\hyperlink{class_flow}{Flow}}$<$ \mbox{\hyperlink{class_system}{System}} $>$\+::get\+Change (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Function to return the \mbox{\hyperlink{class_flow}{Flow}}\textquotesingle{}s total change.\mbox{\Hypertarget{class_flow_a9eb9bc86edc7acedff3871aac0321bd2}\label{class_flow_a9eb9bc86edc7acedff3871aac0321bd2}} 
+\index{Flow$<$ T $>$@{Flow$<$ T $>$}!getChange@{getChange}}
+\index{getChange@{getChange}!Flow$<$ T $>$@{Flow$<$ T $>$}}
+\doxysubsubsection{\texorpdfstring{getChange()}{getChange()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily template$<$class T $>$ \\
+float \mbox{\hyperlink{class_flow}{Flow}}$<$ T $>$\+::get\+Change (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{class_flow_a5ebed47544b3dab8762afc9a738a2744}\label{class_flow_a5ebed47544b3dab8762afc9a738a2744}} 
+\index{Flow$<$ T $>$@{Flow$<$ T $>$}!getSysDestiny@{getSysDestiny}}
+\index{getSysDestiny@{getSysDestiny}!Flow$<$ T $>$@{Flow$<$ T $>$}}
+\doxysubsubsection{\texorpdfstring{getSysDestiny()}{getSysDestiny()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_system}{System}} $\ast$ \mbox{\hyperlink{class_flow}{Flow}}$<$ \mbox{\hyperlink{class_system}{System}} $>$\+::get\+Sys\+Destiny (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Function to return the \mbox{\hyperlink{class_flow}{Flow}}\textquotesingle{}s respective Receiver \mbox{\hyperlink{class_system}{System}} pointer.\mbox{\Hypertarget{class_flow_a58c2b50bd11b7eb820b6265d1d5ec22d}\label{class_flow_a58c2b50bd11b7eb820b6265d1d5ec22d}} 
+\index{Flow$<$ T $>$@{Flow$<$ T $>$}!getSysDestiny@{getSysDestiny}}
+\index{getSysDestiny@{getSysDestiny}!Flow$<$ T $>$@{Flow$<$ T $>$}}
+\doxysubsubsection{\texorpdfstring{getSysDestiny()}{getSysDestiny()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily template$<$class T $>$ \\
+T $\ast$ \mbox{\hyperlink{class_flow}{Flow}}$<$ T $>$\+::get\+Sys\+Destiny (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{class_flow_a0f0bf6596d183af7bc067d91ed7ded09}\label{class_flow_a0f0bf6596d183af7bc067d91ed7ded09}} 
+\index{Flow$<$ T $>$@{Flow$<$ T $>$}!getSysOrigin@{getSysOrigin}}
+\index{getSysOrigin@{getSysOrigin}!Flow$<$ T $>$@{Flow$<$ T $>$}}
+\doxysubsubsection{\texorpdfstring{getSysOrigin()}{getSysOrigin()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_system}{System}} $\ast$ \mbox{\hyperlink{class_flow}{Flow}}$<$ \mbox{\hyperlink{class_system}{System}} $>$\+::get\+Sys\+Origin (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Function to return the \mbox{\hyperlink{class_flow}{Flow}}\textquotesingle{}s respective Giver \mbox{\hyperlink{class_system}{System}} pointer.\mbox{\Hypertarget{class_flow_a497d4521ec62a2ce85b2a4e955c6268e}\label{class_flow_a497d4521ec62a2ce85b2a4e955c6268e}} 
+\index{Flow$<$ T $>$@{Flow$<$ T $>$}!getSysOrigin@{getSysOrigin}}
+\index{getSysOrigin@{getSysOrigin}!Flow$<$ T $>$@{Flow$<$ T $>$}}
+\doxysubsubsection{\texorpdfstring{getSysOrigin()}{getSysOrigin()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily template$<$class T $>$ \\
+T $\ast$ \mbox{\hyperlink{class_flow}{Flow}}$<$ T $>$\+::get\+Sys\+Origin (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+src/\mbox{\hyperlink{_flow_8h}{Flow.\+h}}\end{DoxyCompactItemize}

@@ -1,0 +1,160 @@
+\hypertarget{class_model}{}\doxysection{Model\texorpdfstring{$<$}{<} S, T \texorpdfstring{$>$}{>} Class Template Reference}
+\label{class_model}\index{Model$<$ S, T $>$@{Model$<$ S, T $>$}}
+
+
+{\ttfamily \#include $<$Model.\+h$>$}
+
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_model_a14a64c148d705698c45e7a6ebee3f8b4}{Model}} ()
+\begin{DoxyCompactList}\small\item\em Vector of flows included in the simulation. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{class_model_a8f81926431b46d881471d74fc00adc46}{$\sim$\+Model}} ()
+\item 
+void \mbox{\hyperlink{class_model_adc7f6b348d7c02eaf5182becf3753c66}{sim\+Description}} ()
+\item 
+void \mbox{\hyperlink{class_model_ac9c1db5e60a9ae3e42beb194dd04a09c}{add\+System}} (S $\ast$)
+\item 
+S $\ast$ \mbox{\hyperlink{class_model_a3aa01d8c8898a6581ce0b057b1480a4a}{remove\+System}} (int)
+\item 
+void \mbox{\hyperlink{class_model_aba2c5b2e81d8297191e297245e4882a7}{add\+Flow}} (T $\ast$)
+\item 
+T $\ast$ \mbox{\hyperlink{class_model_a487aeca784b7ce4dda33c1711f487123}{remove\+Flow}} (int)
+\item 
+void \mbox{\hyperlink{class_model_ac229cd66a0928e531df8e807a7b5f073}{run\+Model}} (int)
+\item 
+\mbox{\hyperlink{class_model_a5c5fa46060f095252fce4f6d21924fbc}{Model}} ()
+\item 
+\mbox{\hyperlink{class_model_a0599f44597cb3cec8f5a79ae046dd1ec}{$\sim$\+Model}} ()
+\item 
+void \mbox{\hyperlink{class_model_ad732171220bc680a96839aafc2e17415}{sim\+Description}} ()
+\item 
+void \mbox{\hyperlink{class_model_a35c0d145c1575e18c46cbc5cebfbc719}{add\+System}} (\mbox{\hyperlink{class_system}{System}} $\ast$s)
+\item 
+\mbox{\hyperlink{class_system}{System}} $\ast$ \mbox{\hyperlink{class_model_a0d50161ff151fc419d4ae0606fce9157}{remove\+System}} (int i)
+\item 
+void \mbox{\hyperlink{class_model_a00bb45fb4891760c417768d480fea860}{add\+Flow}} (\mbox{\hyperlink{class_flow}{Flow}}$<$ \mbox{\hyperlink{class_system}{System}} $>$ $\ast$f)
+\item 
+\mbox{\hyperlink{class_flow}{Flow}}$<$ \mbox{\hyperlink{class_system}{System}} $>$ $\ast$ \mbox{\hyperlink{class_model_a6336ce42e288d0e0b4d1391c2b063baa}{remove\+Flow}} (int i)
+\item 
+void \mbox{\hyperlink{class_model_abea1b7fa14cb4f483f1dcab68f78da6b}{run\+Model}} (int a)
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{class_model_a14a64c148d705698c45e7a6ebee3f8b4}\label{class_model_a14a64c148d705698c45e7a6ebee3f8b4}} 
+\index{Model$<$ S, T $>$@{Model$<$ S, T $>$}!Model@{Model}}
+\index{Model@{Model}!Model$<$ S, T $>$@{Model$<$ S, T $>$}}
+\doxysubsubsection{\texorpdfstring{Model()}{Model()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily template$<$class S , class T $>$ \\
+\mbox{\hyperlink{class_model}{Model}}$<$ S, T $>$\+::\mbox{\hyperlink{class_model}{Model}} (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Vector of flows included in the simulation. 
+
+\mbox{\Hypertarget{class_model_a8f81926431b46d881471d74fc00adc46}\label{class_model_a8f81926431b46d881471d74fc00adc46}} 
+\index{Model$<$ S, T $>$@{Model$<$ S, T $>$}!````~Model@{$\sim$Model}}
+\index{````~Model@{$\sim$Model}!Model$<$ S, T $>$@{Model$<$ S, T $>$}}
+\doxysubsubsection{\texorpdfstring{$\sim$Model()}{~Model()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily template$<$class S , class T $>$ \\
+\mbox{\hyperlink{class_model}{Model}}$<$ S, T $>$\+::$\sim$\mbox{\hyperlink{class_model}{Model}} (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{class_model_a5c5fa46060f095252fce4f6d21924fbc}\label{class_model_a5c5fa46060f095252fce4f6d21924fbc}} 
+\index{Model$<$ S, T $>$@{Model$<$ S, T $>$}!Model@{Model}}
+\index{Model@{Model}!Model$<$ S, T $>$@{Model$<$ S, T $>$}}
+\doxysubsubsection{\texorpdfstring{Model()}{Model()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_model}{Model}}$<$ \mbox{\hyperlink{class_system}{System}}, \mbox{\hyperlink{class_flow}{Flow}}$<$ \mbox{\hyperlink{class_system}{System}} $>$ $>$\+::\mbox{\hyperlink{class_model}{Model}} (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Constructor.\mbox{\Hypertarget{class_model_a0599f44597cb3cec8f5a79ae046dd1ec}\label{class_model_a0599f44597cb3cec8f5a79ae046dd1ec}} 
+\index{Model$<$ S, T $>$@{Model$<$ S, T $>$}!````~Model@{$\sim$Model}}
+\index{````~Model@{$\sim$Model}!Model$<$ S, T $>$@{Model$<$ S, T $>$}}
+\doxysubsubsection{\texorpdfstring{$\sim$Model()}{~Model()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_model}{Model}}$<$ \mbox{\hyperlink{class_system}{System}}, \mbox{\hyperlink{class_flow}{Flow}}$<$ \mbox{\hyperlink{class_system}{System}} $>$ $>$\+::$\sim$\mbox{\hyperlink{class_model}{Model}} (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Destructor. TBI.
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{class_model_a00bb45fb4891760c417768d480fea860}\label{class_model_a00bb45fb4891760c417768d480fea860}} 
+\index{Model$<$ S, T $>$@{Model$<$ S, T $>$}!addFlow@{addFlow}}
+\index{addFlow@{addFlow}!Model$<$ S, T $>$@{Model$<$ S, T $>$}}
+\doxysubsubsection{\texorpdfstring{addFlow()}{addFlow()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily void \mbox{\hyperlink{class_model}{Model}}$<$ \mbox{\hyperlink{class_system}{System}}, \mbox{\hyperlink{class_flow}{Flow}}$<$ \mbox{\hyperlink{class_system}{System}} $>$ $>$\+::add\+Flow (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_flow}{Flow}}$<$ \mbox{\hyperlink{class_system}{System}} $>$ $\ast$}]{f }\end{DoxyParamCaption})}
+
+Function to insert a \mbox{\hyperlink{class_flow}{Flow}} into the simulation.\mbox{\Hypertarget{class_model_aba2c5b2e81d8297191e297245e4882a7}\label{class_model_aba2c5b2e81d8297191e297245e4882a7}} 
+\index{Model$<$ S, T $>$@{Model$<$ S, T $>$}!addFlow@{addFlow}}
+\index{addFlow@{addFlow}!Model$<$ S, T $>$@{Model$<$ S, T $>$}}
+\doxysubsubsection{\texorpdfstring{addFlow()}{addFlow()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily template$<$class S , class T $>$ \\
+void \mbox{\hyperlink{class_model}{Model}}$<$ S, T $>$\+::add\+Flow (\begin{DoxyParamCaption}\item[{T $\ast$}]{ }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{class_model_ac9c1db5e60a9ae3e42beb194dd04a09c}\label{class_model_ac9c1db5e60a9ae3e42beb194dd04a09c}} 
+\index{Model$<$ S, T $>$@{Model$<$ S, T $>$}!addSystem@{addSystem}}
+\index{addSystem@{addSystem}!Model$<$ S, T $>$@{Model$<$ S, T $>$}}
+\doxysubsubsection{\texorpdfstring{addSystem()}{addSystem()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily template$<$class S , class T $>$ \\
+void \mbox{\hyperlink{class_model}{Model}}$<$ S, T $>$\+::add\+System (\begin{DoxyParamCaption}\item[{S $\ast$}]{ }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{class_model_a35c0d145c1575e18c46cbc5cebfbc719}\label{class_model_a35c0d145c1575e18c46cbc5cebfbc719}} 
+\index{Model$<$ S, T $>$@{Model$<$ S, T $>$}!addSystem@{addSystem}}
+\index{addSystem@{addSystem}!Model$<$ S, T $>$@{Model$<$ S, T $>$}}
+\doxysubsubsection{\texorpdfstring{addSystem()}{addSystem()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily void \mbox{\hyperlink{class_model}{Model}}$<$ \mbox{\hyperlink{class_system}{System}}, \mbox{\hyperlink{class_flow}{Flow}}$<$ \mbox{\hyperlink{class_system}{System}} $>$ $>$\+::add\+System (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_system}{System}} $\ast$}]{s }\end{DoxyParamCaption})}
+
+Function to insert a \mbox{\hyperlink{class_system}{System}} into the simulation.\mbox{\Hypertarget{class_model_a6336ce42e288d0e0b4d1391c2b063baa}\label{class_model_a6336ce42e288d0e0b4d1391c2b063baa}} 
+\index{Model$<$ S, T $>$@{Model$<$ S, T $>$}!removeFlow@{removeFlow}}
+\index{removeFlow@{removeFlow}!Model$<$ S, T $>$@{Model$<$ S, T $>$}}
+\doxysubsubsection{\texorpdfstring{removeFlow()}{removeFlow()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_flow}{Flow}}$<$ \mbox{\hyperlink{class_system}{System}} $>$ $\ast$ \mbox{\hyperlink{class_model}{Model}}$<$ \mbox{\hyperlink{class_system}{System}}, \mbox{\hyperlink{class_flow}{Flow}}$<$ \mbox{\hyperlink{class_system}{System}} $>$ $>$\+::remove\+Flow (\begin{DoxyParamCaption}\item[{int}]{i }\end{DoxyParamCaption})}
+
+Function to remove a \mbox{\hyperlink{class_flow}{Flow}} from the simulation.\mbox{\Hypertarget{class_model_a487aeca784b7ce4dda33c1711f487123}\label{class_model_a487aeca784b7ce4dda33c1711f487123}} 
+\index{Model$<$ S, T $>$@{Model$<$ S, T $>$}!removeFlow@{removeFlow}}
+\index{removeFlow@{removeFlow}!Model$<$ S, T $>$@{Model$<$ S, T $>$}}
+\doxysubsubsection{\texorpdfstring{removeFlow()}{removeFlow()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily template$<$class S , class T $>$ \\
+T $\ast$ \mbox{\hyperlink{class_model}{Model}}$<$ S, T $>$\+::remove\+Flow (\begin{DoxyParamCaption}\item[{int}]{ }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{class_model_a0d50161ff151fc419d4ae0606fce9157}\label{class_model_a0d50161ff151fc419d4ae0606fce9157}} 
+\index{Model$<$ S, T $>$@{Model$<$ S, T $>$}!removeSystem@{removeSystem}}
+\index{removeSystem@{removeSystem}!Model$<$ S, T $>$@{Model$<$ S, T $>$}}
+\doxysubsubsection{\texorpdfstring{removeSystem()}{removeSystem()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_system}{System}} $\ast$ \mbox{\hyperlink{class_model}{Model}}$<$ \mbox{\hyperlink{class_system}{System}}, \mbox{\hyperlink{class_flow}{Flow}}$<$ \mbox{\hyperlink{class_system}{System}} $>$ $>$\+::remove\+System (\begin{DoxyParamCaption}\item[{int}]{i }\end{DoxyParamCaption})}
+
+Function to remove a \mbox{\hyperlink{class_system}{System}} from the simulation.\mbox{\Hypertarget{class_model_a3aa01d8c8898a6581ce0b057b1480a4a}\label{class_model_a3aa01d8c8898a6581ce0b057b1480a4a}} 
+\index{Model$<$ S, T $>$@{Model$<$ S, T $>$}!removeSystem@{removeSystem}}
+\index{removeSystem@{removeSystem}!Model$<$ S, T $>$@{Model$<$ S, T $>$}}
+\doxysubsubsection{\texorpdfstring{removeSystem()}{removeSystem()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily template$<$class S , class T $>$ \\
+S $\ast$ \mbox{\hyperlink{class_model}{Model}}$<$ S, T $>$\+::remove\+System (\begin{DoxyParamCaption}\item[{int}]{ }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{class_model_abea1b7fa14cb4f483f1dcab68f78da6b}\label{class_model_abea1b7fa14cb4f483f1dcab68f78da6b}} 
+\index{Model$<$ S, T $>$@{Model$<$ S, T $>$}!runModel@{runModel}}
+\index{runModel@{runModel}!Model$<$ S, T $>$@{Model$<$ S, T $>$}}
+\doxysubsubsection{\texorpdfstring{runModel()}{runModel()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily void \mbox{\hyperlink{class_model}{Model}}$<$ \mbox{\hyperlink{class_system}{System}}, \mbox{\hyperlink{class_flow}{Flow}}$<$ \mbox{\hyperlink{class_system}{System}} $>$ $>$\+::run\+Model (\begin{DoxyParamCaption}\item[{int}]{a }\end{DoxyParamCaption})}
+
+Function to run the simulation of the systems and flows included for a time steps.\mbox{\Hypertarget{class_model_ac229cd66a0928e531df8e807a7b5f073}\label{class_model_ac229cd66a0928e531df8e807a7b5f073}} 
+\index{Model$<$ S, T $>$@{Model$<$ S, T $>$}!runModel@{runModel}}
+\index{runModel@{runModel}!Model$<$ S, T $>$@{Model$<$ S, T $>$}}
+\doxysubsubsection{\texorpdfstring{runModel()}{runModel()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily template$<$class S , class T $>$ \\
+void \mbox{\hyperlink{class_model}{Model}}$<$ S, T $>$\+::run\+Model (\begin{DoxyParamCaption}\item[{int}]{ }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{class_model_ad732171220bc680a96839aafc2e17415}\label{class_model_ad732171220bc680a96839aafc2e17415}} 
+\index{Model$<$ S, T $>$@{Model$<$ S, T $>$}!simDescription@{simDescription}}
+\index{simDescription@{simDescription}!Model$<$ S, T $>$@{Model$<$ S, T $>$}}
+\doxysubsubsection{\texorpdfstring{simDescription()}{simDescription()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily void \mbox{\hyperlink{class_model}{Model}}$<$ \mbox{\hyperlink{class_system}{System}}, \mbox{\hyperlink{class_flow}{Flow}}$<$ \mbox{\hyperlink{class_system}{System}} $>$ $>$\+::sim\+Description (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Function to print all the Systems and Flows included in the simulation. TBI.\mbox{\Hypertarget{class_model_adc7f6b348d7c02eaf5182becf3753c66}\label{class_model_adc7f6b348d7c02eaf5182becf3753c66}} 
+\index{Model$<$ S, T $>$@{Model$<$ S, T $>$}!simDescription@{simDescription}}
+\index{simDescription@{simDescription}!Model$<$ S, T $>$@{Model$<$ S, T $>$}}
+\doxysubsubsection{\texorpdfstring{simDescription()}{simDescription()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily template$<$class S , class T $>$ \\
+void \mbox{\hyperlink{class_model}{Model}}$<$ S, T $>$\+::sim\+Description (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+src/\mbox{\hyperlink{_model_8h}{Model.\+h}}\end{DoxyCompactItemize}

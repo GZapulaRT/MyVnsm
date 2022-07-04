@@ -1,0 +1,126 @@
+\hypertarget{class_fluxo}{}\doxysection{Fluxo\texorpdfstring{$<$}{<} T \texorpdfstring{$>$}{>} Class Template Reference}
+\label{class_fluxo}\index{Fluxo$<$ T $>$@{Fluxo$<$ T $>$}}
+
+
+{\ttfamily \#include $<$Flow.\+h$>$}
+
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_fluxo_aee59dd94d0599888c039b3202814312d}{Fluxo}} (T $\ast$const \&, T $\ast$const \&)
+\begin{DoxyCompactList}\small\item\em Vector with each system dependency. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{class_fluxo_a80d2d29c7acc764ccd9d359c5f3233e4}{$\sim$\+Fluxo}} ()
+\item 
+T $\ast$ \mbox{\hyperlink{class_fluxo_a1978c688a7777b4150bbed0ad03a9de1}{get\+Sys\+Give}} ()
+\item 
+T $\ast$ \mbox{\hyperlink{class_fluxo_a97d0c9e7f62198e7c0bb633fd62d4aaf}{get\+Sys\+Rec}} ()
+\item 
+float \mbox{\hyperlink{class_fluxo_a9327637bea9819758c1abb412fe3194a}{get\+Change}} ()
+\item 
+void \mbox{\hyperlink{class_fluxo_a5a94a63fced837c08fe8e278c68f991a}{define\+Func}} (T $\ast$const \&, float($\ast$)(float))
+\item 
+\mbox{\hyperlink{class_fluxo_ae8933b6133f33d06c49bd5414228be0d}{Fluxo}} (\mbox{\hyperlink{class_sistema}{Sistema}} $\ast$const \&g, \mbox{\hyperlink{class_sistema}{Sistema}} $\ast$const \&r)
+\item 
+\mbox{\hyperlink{class_fluxo_acbca999c0df098ff7633cfb9ae91abfc}{$\sim$\+Fluxo}} ()
+\item 
+\mbox{\hyperlink{class_sistema}{Sistema}} $\ast$ \mbox{\hyperlink{class_fluxo_a6ea8435d48430c9c2c58d6b23266eaf9}{get\+Sys\+Give}} ()
+\item 
+\mbox{\hyperlink{class_sistema}{Sistema}} $\ast$ \mbox{\hyperlink{class_fluxo_adeaecb01e688f03c549ea6fe63b07485}{get\+Sys\+Rec}} ()
+\item 
+float \mbox{\hyperlink{class_fluxo_aabcc338fa28cb4da3a63d1ce7a6788f3}{get\+Change}} ()
+\item 
+void \mbox{\hyperlink{class_fluxo_a1032fc1c231a90ccb9628abaa5e245b0}{define\+Func}} (\mbox{\hyperlink{class_sistema}{Sistema}} $\ast$const \&sys, float($\ast$func)(float))
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{class_fluxo_aee59dd94d0599888c039b3202814312d}\label{class_fluxo_aee59dd94d0599888c039b3202814312d}} 
+\index{Fluxo$<$ T $>$@{Fluxo$<$ T $>$}!Fluxo@{Fluxo}}
+\index{Fluxo@{Fluxo}!Fluxo$<$ T $>$@{Fluxo$<$ T $>$}}
+\doxysubsubsection{\texorpdfstring{Fluxo()}{Fluxo()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily template$<$class T $>$ \\
+\mbox{\hyperlink{class_fluxo}{Fluxo}}$<$ T $>$\+::\mbox{\hyperlink{class_fluxo}{Fluxo}} (\begin{DoxyParamCaption}\item[{T $\ast$const \&}]{,  }\item[{T $\ast$const \&}]{ }\end{DoxyParamCaption})}
+
+
+
+Vector with each system dependency. 
+
+\mbox{\Hypertarget{class_fluxo_a80d2d29c7acc764ccd9d359c5f3233e4}\label{class_fluxo_a80d2d29c7acc764ccd9d359c5f3233e4}} 
+\index{Fluxo$<$ T $>$@{Fluxo$<$ T $>$}!````~Fluxo@{$\sim$Fluxo}}
+\index{````~Fluxo@{$\sim$Fluxo}!Fluxo$<$ T $>$@{Fluxo$<$ T $>$}}
+\doxysubsubsection{\texorpdfstring{$\sim$Fluxo()}{~Fluxo()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily template$<$class T $>$ \\
+\mbox{\hyperlink{class_fluxo}{Fluxo}}$<$ T $>$\+::$\sim$\mbox{\hyperlink{class_fluxo}{Fluxo}} (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{class_fluxo_ae8933b6133f33d06c49bd5414228be0d}\label{class_fluxo_ae8933b6133f33d06c49bd5414228be0d}} 
+\index{Fluxo$<$ T $>$@{Fluxo$<$ T $>$}!Fluxo@{Fluxo}}
+\index{Fluxo@{Fluxo}!Fluxo$<$ T $>$@{Fluxo$<$ T $>$}}
+\doxysubsubsection{\texorpdfstring{Fluxo()}{Fluxo()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_fluxo}{Fluxo}}$<$ \mbox{\hyperlink{class_sistema}{Sistema}} $>$\+::\mbox{\hyperlink{class_fluxo}{Fluxo}} (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_sistema}{Sistema}} $\ast$const \&}]{g,  }\item[{\mbox{\hyperlink{class_sistema}{Sistema}} $\ast$const \&}]{r }\end{DoxyParamCaption})}
+
+Constructor. Receives to systems to connect.\mbox{\Hypertarget{class_fluxo_acbca999c0df098ff7633cfb9ae91abfc}\label{class_fluxo_acbca999c0df098ff7633cfb9ae91abfc}} 
+\index{Fluxo$<$ T $>$@{Fluxo$<$ T $>$}!````~Fluxo@{$\sim$Fluxo}}
+\index{````~Fluxo@{$\sim$Fluxo}!Fluxo$<$ T $>$@{Fluxo$<$ T $>$}}
+\doxysubsubsection{\texorpdfstring{$\sim$Fluxo()}{~Fluxo()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_fluxo}{Fluxo}}$<$ \mbox{\hyperlink{class_sistema}{Sistema}} $>$\+::$\sim$\mbox{\hyperlink{class_fluxo}{Fluxo}} (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Destructor. TBI.
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{class_fluxo_a1032fc1c231a90ccb9628abaa5e245b0}\label{class_fluxo_a1032fc1c231a90ccb9628abaa5e245b0}} 
+\index{Fluxo$<$ T $>$@{Fluxo$<$ T $>$}!defineFunc@{defineFunc}}
+\index{defineFunc@{defineFunc}!Fluxo$<$ T $>$@{Fluxo$<$ T $>$}}
+\doxysubsubsection{\texorpdfstring{defineFunc()}{defineFunc()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily void \mbox{\hyperlink{class_fluxo}{Fluxo}}$<$ \mbox{\hyperlink{class_sistema}{Sistema}} $>$\+::define\+Func (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_sistema}{Sistema}} $\ast$const \&}]{sys,  }\item[{float($\ast$)(float)}]{func }\end{DoxyParamCaption})}
+
+Function to define a new system dependency for the flow, with a function pointer set for the calculation.\mbox{\Hypertarget{class_fluxo_a5a94a63fced837c08fe8e278c68f991a}\label{class_fluxo_a5a94a63fced837c08fe8e278c68f991a}} 
+\index{Fluxo$<$ T $>$@{Fluxo$<$ T $>$}!defineFunc@{defineFunc}}
+\index{defineFunc@{defineFunc}!Fluxo$<$ T $>$@{Fluxo$<$ T $>$}}
+\doxysubsubsection{\texorpdfstring{defineFunc()}{defineFunc()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily template$<$class T $>$ \\
+void \mbox{\hyperlink{class_fluxo}{Fluxo}}$<$ T $>$\+::define\+Func (\begin{DoxyParamCaption}\item[{T $\ast$const \&}]{,  }\item[{float($\ast$)(float)}]{ }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{class_fluxo_aabcc338fa28cb4da3a63d1ce7a6788f3}\label{class_fluxo_aabcc338fa28cb4da3a63d1ce7a6788f3}} 
+\index{Fluxo$<$ T $>$@{Fluxo$<$ T $>$}!getChange@{getChange}}
+\index{getChange@{getChange}!Fluxo$<$ T $>$@{Fluxo$<$ T $>$}}
+\doxysubsubsection{\texorpdfstring{getChange()}{getChange()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily float \mbox{\hyperlink{class_fluxo}{Fluxo}}$<$ \mbox{\hyperlink{class_sistema}{Sistema}} $>$\+::get\+Change (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Function to return the Flow\textquotesingle{}s total change.\mbox{\Hypertarget{class_fluxo_a9327637bea9819758c1abb412fe3194a}\label{class_fluxo_a9327637bea9819758c1abb412fe3194a}} 
+\index{Fluxo$<$ T $>$@{Fluxo$<$ T $>$}!getChange@{getChange}}
+\index{getChange@{getChange}!Fluxo$<$ T $>$@{Fluxo$<$ T $>$}}
+\doxysubsubsection{\texorpdfstring{getChange()}{getChange()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily template$<$class T $>$ \\
+float \mbox{\hyperlink{class_fluxo}{Fluxo}}$<$ T $>$\+::get\+Change (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{class_fluxo_a6ea8435d48430c9c2c58d6b23266eaf9}\label{class_fluxo_a6ea8435d48430c9c2c58d6b23266eaf9}} 
+\index{Fluxo$<$ T $>$@{Fluxo$<$ T $>$}!getSysGive@{getSysGive}}
+\index{getSysGive@{getSysGive}!Fluxo$<$ T $>$@{Fluxo$<$ T $>$}}
+\doxysubsubsection{\texorpdfstring{getSysGive()}{getSysGive()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_sistema}{Sistema}} $\ast$ \mbox{\hyperlink{class_fluxo}{Fluxo}}$<$ \mbox{\hyperlink{class_sistema}{Sistema}} $>$\+::get\+Sys\+Give (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Function to return the Flow\textquotesingle{}s respective Giver \mbox{\hyperlink{class_sistema}{Sistema}} pointer.\mbox{\Hypertarget{class_fluxo_a1978c688a7777b4150bbed0ad03a9de1}\label{class_fluxo_a1978c688a7777b4150bbed0ad03a9de1}} 
+\index{Fluxo$<$ T $>$@{Fluxo$<$ T $>$}!getSysGive@{getSysGive}}
+\index{getSysGive@{getSysGive}!Fluxo$<$ T $>$@{Fluxo$<$ T $>$}}
+\doxysubsubsection{\texorpdfstring{getSysGive()}{getSysGive()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily template$<$class T $>$ \\
+T $\ast$ \mbox{\hyperlink{class_fluxo}{Fluxo}}$<$ T $>$\+::get\+Sys\+Give (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{class_fluxo_adeaecb01e688f03c549ea6fe63b07485}\label{class_fluxo_adeaecb01e688f03c549ea6fe63b07485}} 
+\index{Fluxo$<$ T $>$@{Fluxo$<$ T $>$}!getSysRec@{getSysRec}}
+\index{getSysRec@{getSysRec}!Fluxo$<$ T $>$@{Fluxo$<$ T $>$}}
+\doxysubsubsection{\texorpdfstring{getSysRec()}{getSysRec()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_sistema}{Sistema}} $\ast$ \mbox{\hyperlink{class_fluxo}{Fluxo}}$<$ \mbox{\hyperlink{class_sistema}{Sistema}} $>$\+::get\+Sys\+Rec (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Function to return the Flow\textquotesingle{}s respective Receiver \mbox{\hyperlink{class_sistema}{Sistema}} pointer.\mbox{\Hypertarget{class_fluxo_a97d0c9e7f62198e7c0bb633fd62d4aaf}\label{class_fluxo_a97d0c9e7f62198e7c0bb633fd62d4aaf}} 
+\index{Fluxo$<$ T $>$@{Fluxo$<$ T $>$}!getSysRec@{getSysRec}}
+\index{getSysRec@{getSysRec}!Fluxo$<$ T $>$@{Fluxo$<$ T $>$}}
+\doxysubsubsection{\texorpdfstring{getSysRec()}{getSysRec()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily template$<$class T $>$ \\
+T $\ast$ \mbox{\hyperlink{class_fluxo}{Fluxo}}$<$ T $>$\+::get\+Sys\+Rec (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+src/\mbox{\hyperlink{_flow_8h}{Flow.\+h}}\end{DoxyCompactItemize}

@@ -1,0 +1,30 @@
+\hypertarget{_flow_8h_source}{}\doxysection{Flow.\+h}
+\label{_flow_8h_source}\index{src/Flow.h@{src/Flow.h}}
+\mbox{\hyperlink{_flow_8h}{Go to the documentation of this file.}}
+\begin{DoxyCode}{0}
+\DoxyCodeLine{1 \textcolor{preprocessor}{\#ifndef FLOW\_H}}
+\DoxyCodeLine{2 \textcolor{preprocessor}{\#define FLOW\_H}}
+\DoxyCodeLine{3 }
+\DoxyCodeLine{4 \textcolor{preprocessor}{\#include<vector>}}
+\DoxyCodeLine{5 \textcolor{preprocessor}{\#include<string>}}
+\DoxyCodeLine{6 }
+\DoxyCodeLine{7 \textcolor{keyword}{template}<\textcolor{keyword}{class} T> \textcolor{keyword}{class }\mbox{\hyperlink{class_flow}{Flow}}\{}
+\DoxyCodeLine{8     T* origin; }
+\DoxyCodeLine{9     T* destiny; }
+\DoxyCodeLine{10     std::vector<float (*)(float)> func; }
+\DoxyCodeLine{11     std::vector<T*> dep; }
+\DoxyCodeLine{12 }
+\DoxyCodeLine{13 \textcolor{keyword}{public}:}
+\DoxyCodeLine{14     \mbox{\hyperlink{class_flow_a05d4c2b72cd137a4279f7a14b54b175e}{Flow}}(T* \textcolor{keyword}{const}\&, T* \textcolor{keyword}{const}\&);}
+\DoxyCodeLine{15     \mbox{\hyperlink{class_flow_a36f90ac9d8b6b4651333b5feb3ec49f2}{\string~Flow}}();}
+\DoxyCodeLine{16 }
+\DoxyCodeLine{17     T* \mbox{\hyperlink{class_flow_a497d4521ec62a2ce85b2a4e955c6268e}{getSysOrigin}}();}
+\DoxyCodeLine{18     T* \mbox{\hyperlink{class_flow_a58c2b50bd11b7eb820b6265d1d5ec22d}{getSysDestiny}}();}
+\DoxyCodeLine{19 }
+\DoxyCodeLine{20     \textcolor{keywordtype}{float} \mbox{\hyperlink{class_flow_a9eb9bc86edc7acedff3871aac0321bd2}{getChange}}();}
+\DoxyCodeLine{21     \textcolor{keywordtype}{void} \mbox{\hyperlink{class_flow_a5212421f405ed3ca55d1ab3fe89f8fad}{defineFunc}}(T* \textcolor{keyword}{const}\&, \textcolor{keywordtype}{float}(*)(\textcolor{keywordtype}{float}));}
+\DoxyCodeLine{22 \};}
+\DoxyCodeLine{23 }
+\DoxyCodeLine{24 \textcolor{preprocessor}{\#endif}}
+
+\end{DoxyCode}
